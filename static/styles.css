@@ -1,0 +1,288 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-link-color: #d04000;
+  --primary-bg-color: #FFE7D6;
+  --primary-text-color: #323232;
+  --primary-text-color-over: #000;
+  --background-color: #fff;
+  --secondary-text-color: #303030;
+  --box-background-color: #fcfbf9;
+  --code-color: #ffccb5;
+  --code-background-color: #4a4a4a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-link-color: #fd814c;
+    --primary-bg-color: #3c3c3c;
+    --primary-text-color: #e1e1e1;
+    --primary-text-color-over: #FFF;
+    --background-color: #282828;
+    --secondary-text-color: #f2f2f2;
+    --box-background-color: #3a3a3a;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: "Fira Sans", sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--primary-link-color);
+}
+
+ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+ul>li {
+  padding: 0.3rem 0;
+}
+
+p>img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  margin-bottom: 1.5rem;
+}
+
+header h1 {
+  color: var(--primary-link-color);
+}
+
+nav, main, footer {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 0 2.5rem;
+  text-align: center;
+}
+
+nav a {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.logo {
+  width: 100%;
+  max-width: 25rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  word-wrap: break-word;
+}
+
+main h1:first-of-type {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+aside {
+  min-width: 15rem;
+  border-top: 5px solid var(--primary-link-color);
+  background-color: var(--box-background-color);
+  padding: 1rem 0;
+}
+
+.menu {
+  padding: 1.5rem;
+}
+
+.menu .title,
+.menu time {
+  display: block;
+}
+.menu .title {
+  font-size: 1.5rem;
+}
+
+.menu h2 {
+  margin: 2rem 0 .5rem;
+}
+
+.menu h2:first-of-type {
+  margin-top: 0;
+}
+
+.toc {
+  display: none;
+}
+
+.toc-item {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.toc-item-child {
+  padding: 0 2rem 0.3rem;
+  font-size: 1rem;
+}
+
+.toc-item a,
+.toc-item-child a {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.toc-item a:hover,
+.toc-item-child a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.toc-item a.active,
+.toc-item-child a.active {
+  color: var(--primary-link-color);
+}
+
+.toc-sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  top: 2rem;
+  max-height: 100vh;
+  overflow: auto;
+}
+
+.content pre {
+  overflow-x: auto;
+  padding: 1.25em 1.5em;
+  white-space: pre;
+  word-wrap: normal;
+  background-color: var(--code-background-color);
+  color: var(--code-color);
+  font-family: monospace;
+}
+
+.content code {
+  background-color: var(--code-background-color);
+  color: var(--code-color);
+  font-weight: normal;
+  padding: 0.2rem 0.5rem;
+  font-family: monospace;
+  border-radius: 5px;
+}
+
+.content pre code {
+  padding: 0;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+.content blockquote {
+  margin: 0;
+  padding: .5rem 1.5rem;
+  border-left: var(--code-background-color) 8px solid;
+  background-color: var(--box-background-color);
+}
+
+.button {
+  display: inline-block;
+  margin: .5rem .5rem .5rem 0;
+  padding: .3rem .7rem;
+  min-width: 8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+  border-radius: 0.5rem;
+  background-color: var(--primary-link-color);
+  color: var(--primary-bg-color);
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.page-events h2 {
+  color: var(--secondary-text-color); 
+  margin-top: 3rem;
+}
+
+.page-events h3 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.page-events h2 + h3 {
+  margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    flex-direction: row;
+  }
+
+  .logo {
+    max-width: 15rem;
+  }
+
+  nav a {
+    font-size: 2.5rem;
+  }
+
+  main {
+    flex-direction: row;
+  }
+
+  .toc {
+    display: block;
+  }
+}

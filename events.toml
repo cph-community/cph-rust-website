@@ -1,0 +1,609 @@
+[[upcoming]]
+title = "Meetup #35"
+date = 2023-04-27 18:00:00+01:00
+venue = "Google"
+address = "Sankt Petri Passage 5, København"
+content = """
+Coming soon.
+"""
+
+[[recent]]
+title = "Meetup #34"
+date = 2023-03-23 18:00:00+01:00
+venue = "Penneo"
+address = "Enghavevej 40, 4. sal, 1674 København V"
+url = "https://www.meetup.com/copenhagen-rust-community/events/291613010/"
+content = """
+<p>We are excited to welcome you to Rust meetup #34!</p>
+<p>This time it'll take place at <a href="https://penneo.com/" target="_blank" class="text-viridian" rel="nofollow ugc">Penneo</a>'s offices at Vesterbro.<br>
+We are still ironing out the details.</p>
+<ul>
+<li>18:05—18:15: Welcome!</li>
+<li>18:15—19:00: Talk #1: Async cancellation-safety by Yoshua Wuyts</li>
+<li>19:00—19:45: Food sponsored by Penneo</li>
+<li>19:50—20:35: Talk #2: Practical zero-knowledge applications of Triton VM by Simon Shine</li>
+<li>20:35—: Free play</li>
+</ul>
+<p>Due to space constraints we're forced to a 40 attendee limit so please make sure you sign up early as it's a first come first serve basis. That also means you should remove your self from the attendance list if you're prevented from participating such that it frees up a slot for people in the waiting list :-)</p>
+<p>We look forward to seeing you all!</p>
+"""
+
+[[recent]]
+title = "Meetup #33"
+date = 2023-02-23 18:00:00+01:00
+venue = "Adapt"
+address = "Langebrogade 6a, 1411 København"
+url = "https://www.meetup.com/copenhagen-rust-community/events/291288154/"
+content = """
+<p>We are excited to welcome you to Rust meetup #33, this time <a href="https://adaptagency.com/" target="_blank" class="text-viridian" rel="nofollow ugc">Adapt Agency</a> will be hosting us again at their offices at Christianshavn.<br> Please note there are only 50 spots for this meetup so make sure to sign up early as the spots are first come first serve :-)<br> For anyone who signs up after those 50 are taken there's a waiting list so if you are prevented from joining after all please remove your attendance to give someone else your spot, thank you!</p>
+<p>As usual, our program looks like this:</p>
+<ul>
+    <li>18:05—18:15: Welcome!</li>
+    <li>18:15—19:00: “Introduction to proc_macros” by David Pedersen</li>
+    <li>19:00—19:45: Break and food sponsored by <a href="https://adaptagency.com/" target="_blank" class="text-viridian" rel="nofollow ugc">Adapt</a></li>
+    <li>19:50—20:35: "<a href="https://github.com/fiberplane/autometrics-rs/" target="_blank" class="text-viridian" rel="nofollow ugc">autometrics-rs</a>" by Evan Schwartz</li>
+    <li>20:35—: Hang out and talk</li>
+</ul>
+"""
+
+[[recent]]
+title = "Meetup #32"
+date = 2023-01-26 18:00:00+01:00
+venue = "Connected Cars"
+address = "Borgmester Christiansens Gade 50, 2450 København"
+url = "https://www.meetup.com/copenhagen-rust-community/events/290037532/"
+content = """
+<p>We are excited to welcome you to the first Rust meetup of 2023! 🦀🍾</p>
+
+<p>For this edition, we have one speaker and then afterwards we will be doing an open showcase session where members of the community can show off their projects.</p
+<p
+    <strong>Agenda:</strong>
+<ul>
+<li>18:05 - 18:15 – Welcome</li>
+<li>18:15 - 18:45 – <em>“Putting Rust(The good kind) in your cars”</em> by Christian<br></li>
+<li>18:45 - 19:15 – Break with food and drinks</li>
+<li>19:15 - 20:15 – Lightning showcase ⚡️
+    <p>Bring your project and show it off! Did you do your first Advent of Code in Rust? Have you been making a game in Bevvy? Did you defeat the borrow checker in single combat? If you are up for sharing: No need to prepare slides or anything, just bring your laptop and tell the group about it for 5 mins!</p>
+    <p>Showcases:</p>
+    <ul>
+    <li><em>Deriving SQL from git using `proc_macro`'s</em> - Simon</li>
+    <li><em>Let’s solve the 1st Advent of Code together</em> - Frederik</li>
+    <li><em>How to call a C function from Rust</em> - Vanja</li>
+    <li><strong>Your project? 🤗</strong></li>
+    </ul>
+</li>
+<li>20:15 - xx:xx – Hangout and hack</li>
+</ul>
+<p>Note: This event will not be recorded or live-streamed.</p>
+<p>The venue and food for this meetup is generously sponsored by <a href="https://connectedcars.dk/contact/" target="_blank" class="text-viridian" rel="nofollow ugc">Connected Cars</a>.</p>
+"""
+
+
+[[recent]]
+title = "Hack Night #31"
+date = 2022-11-24 18:00:00+01:00
+venue = "Google"
+address = "Sankt Petri Passage 5, København"
+content = """
+<p>We are excited to welcome you to Rust Hack Night #31! This month we're happy to announce that <strong>Google Cloud</strong> will be hosting us!</p>
+
+<ul>
+    <li>18:05—18:15: Welcome!</li>
+    <li>18:15—19:00: "A Linux NVMe Driver in Rust" by Andreas Hindborg</li>
+    <li>19:00—19:45: Break</li>
+    <li>19:50—20:35: "The QOI Codec in Rust" by Frederik Jensen</li>
+    <li>20:35—: Hang out and talk</li>
+</ul>
+"""
+
+[[recent]]
+title = "Hack Night #30"
+date = 2022-10-27 18:00:00+01:00
+venue = "Penneo"
+address = "Enghavevej 40, 4. sal, 1674 København V"
+content = """
+<p>Hack Night #30 will take place at <a href="https://penneo.com/" class="">Penneo</a>'s offices at Vesterbro. We are thrilled to share with you the programme with you: </p>
+
+<ul>
+    <li>18:05—18:15: Welcome!</li>
+    <li>18:15—19:00: Talk by <a href="https://github.com/davidpdrsn" target="_blank" class="link">David Pedersen</a>: Mind the GAT</li>
+    <li>19:00—19:45: Food sponsored by Penneo</li>
+    <li>19:50—20:35: Talk by <a href="https://www.linkedin.com/in/mlund/" target="_blank" class="link">Mikael Lund</a>: Rust on 8-bit computers</li>
+    <li>20:35—: Free play</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #29"
+date = 2022-09-29 18:00:00+01:00
+venue = "Adapt"
+address = "Langebrogade 6A, 1411 København"
+content = """
+<p>Hack Night #29 will take place at <a href="https://adaptagency.com/">Adapt Agency</a>'s offices at Christianshavn. We are excited to present to you the agenda below:</p>
+
+<ul>
+    <li>18:05—18:15: Welcome!</li>
+    <li>18:15—19:00: Video talk by <a href="https://yoshuawuyts.com/" target="_blank" class="link">Yoshua Wuyts</a>: On static/non-dynamic async concurrency</li>
+    <li>19:00—19:45: Food sponsored by Adapt Agency</li>
+    <li>19:50—20:35: Talk by <a href="http://github.com/sorhawell" target="_blank" class="link">Søren Welling</a>: <a href="https://github.com/sorhawell/minipolars" target="_blank" class="link">Minipolars</a>: Ongoing porting of the Lightning-fast DataFrame library <a href="https://pola.rs" target="_blank" class="link">pola.rs</a> to R </li> <li>20:35—: Free play</li>
+</ul>
+
+"""
+
+[[past]]
+title = "Hack Night #28"
+date = 2022-08-25 18:00:00+01:00
+venue = "Blackbird"
+address = "Sundkaj 153, Pakhus 48, 2, 2150 København"
+content = """
+<p>We are excited to welcome you to a summer vacation Hack Night #28 at <a href="https://blackbird.online/about-us/" target="_blank" class="link">Black Bird's</a> offices! Agenda is as follows:</p>
+<ul>
+    <li>18:05—18:15: Welcome!</li>
+    <li>18:15—19:00: Talk by <a href="https://github.com/sshine" target="_blank" class="link">Simon Shine</a>:
+        Efficient prime-field arithmetic in Rust</li>
+    <li>19:00—19:45: Food sponsored by Blackbird</li>
+    <li>19:50—20:35: Open Talk Slot</li>
+    <li>20:35—: Free play</li>
+</ul>
+<p> If you plan to participate, please sign up on this <a href="https://www.meetup.com/copenhagen-rust-meetup-group/events/287635498/">meetup event</a> so we know how much food to order, and let us know in advance if you have any allergens. We look forward to receiving you! </p>
+<p> If you missed the last meetup you can find the recorded talks online here: <a href="https://www.youtube.com/watch?v=jFJivKjW63w&amp;t=2s" target="_blank">Fabian Badoi's I build a tool I use in Rust</a> and <a href="https://www.youtube.com/watch?v=kI-_o37nAPU" target="_blank">Aske Simon Christensen's wrapping a multi-threaded C++ API in a Safe Rust API</a>. </p>
+"""
+
+[[past]]
+title = "Hack Night #27"
+date = 2022-07-28 18:00:00+01:00
+venue = "Connected Cars"
+address = "Borgmester Christiansens Gade 50, 2450 København"
+content = """
+<p>We are excited to welcome you to the next meetup in <a href="https://connectedcars.dk/" target="_blank">Connected Cars</a>'s new offices. The agenda is as follows: </p>
+<p>Agenda: </p>
+<ul>
+    <li>18:05—18:15: Welcome!</li>
+    <li>18:15—19:00: Talk by <a href="https://www.github.com/askeksa/">Aske Simon Christensen</a>: Wrapping a multi-threaded C++ API in a Safe Rust API</li>
+    <li>19:00—19:45: Food sponsored by Connected Cars</li>
+    <li>19:50—20:35: Talk by <a href="https://github.com/fabianbadoi/rusty-pine">Fabian Badoi</a>: I build a tool I use in Rust</li>
+    <li>20:35—: Free play</li>
+</ul>
+<p> If you plan to participate, please sign up on this <a href="https://www.meetup.com/copenhagen-rust-meetup-group/events/287057762/">meetup event</a> so we know how much food to order. We look forward to receiving you! </p>
+<p> If you missed the last meetup you can find the recorded talks online here: <a href="https://youtu.be/vJqhqRmSb68" target="_blank">Simon Rasmussen's WASM and WAT the fp-bindgen?</a> and <a href="https://youtu.be/ETdmhh7OQpA" target="_blank">David Pedersen's Introduction to Axum</a>. </p>
+
+"""
+
+[[past]]
+title = "Hack Night #26"
+date = 2022-06-30 18:00:00+01:00
+venue = "Adapt"
+address = "Langebrogade 6A, 1411 København"
+content = """
+<p>We are happy to announce that <a href="https://adaptagency.com/">Adapt Agency</a> will host the next meetup in their offices on Thursday, June 30th. If you want to participate please send an email to frederik@secondspectrum.com to confirm your presence. We look forward to taking you through an exciting programme: </p>
+
+<p>Agenda: </p> 
+<ul>
+    <li>18:05—18:15: Welcome!</li>
+    <li>18:15—19:00: Talk by <a href="https://www.github.com/Zagitta/">Simon Rasmussen</a>: WASM and WAT the fp-bindgen?</li>
+    <li>19:00—19:45: Food sponsored by Adapt Agency</li>
+    <li>19:45—19:50: Rust book raffle by <a href="https://twitter.com/fiberplane">Fiberplane</a></li>
+    <li>19:50—20:35: Talk by <a href="https://github.com/davidpdrsn">David Pedersen</a>: Introduction to <a href="https://github.com/tokio-rs/axum">Axum</a></li>
+    <li>20:35—: Free play</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #25"
+date = 2022-04-28 18:00:00+01:00
+venue = "Blackbird"
+address = "Sundkaj 153, Pakhus 48, 2150 Nordhavn"
+content = """
+<p>We are happy to announce that <a href="https://blackbird.online/">Blackbird</a> will host the next meetup in their offices on Thursday, April 28th. Good mood and a new-found, or long-lasting, passionate interest in Rust are the only requirements for participation! </p>
+
+<p>Agenda:</p>
+<ul>
+    <li>18:05—18:15: Welcome!</li>
+    <li>18:15—19:00: Talk by <a href="https://github.com/Erk-">Valdemar Erk</a>: <a href="https://github.com/Erk-/RRust">RRust</a>: A reversible embedded language made with meta-programming </li>
+    <li>19:00—19:45: Food sponsored by <a href="https://twitter.com/fiberplane">Fiberplane</a></li>
+    <li>19:45—20:30: Talk by <a href="https://github.com/sakex">Alexandre Senges</a>: <a href="https://github.com/sakex/flappy-bird">Flappy Bird</a> - Reinforcement learning in the browser with <a href="https://github.com/sakex/neat-gru-rust">neat-gru</a> and WASM </li>
+    <li>20:30—: Hang out, hacking and networking</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #24"
+date = 2022-02-24 18:00:00+01:00
+venue = "Adapt"
+address = "Langebrogade 6A, 1411 Copenhagen K"
+content = """
+<p>We are happy to announce that <a href="https://adaptagency.com/">Adapt A/S</a> will host the next meetup in their offices on Thursday, February 24th. Good mood and a new-found, or long-lasting, passionate interest in Rust are the only requirements for participation! </p>
+
+<p>Agenda:</p>
+<ul>
+    <li>18:05—18:15: Welcome back!</li>
+    <li>18:15—19:00: Talk by Blas Rodriguez Irízar: <a href="https://github.com/solana-labs/solana">Introduction to Solana Block-Chain Smart Contracts</a></li>
+    <li>19:00—19:45: Sandwiches sponsored by <a href="https://adaptagency.com/">Adapt A/S</a> + Rust Quiz and Prizes sponsored by <a href="https://twitter.com/fiberplane">Fiberplane</a></li>
+    <li>19:45—20:30: Talk by <a href="https://github.com/davidpdrsn">David Pedersen</a>: <a href="https://github.com/davidpdrsn/axum-live-view">axum-live-view</a> -- server render all the things </li>
+    <li>20:30—: Hang out, hacking and networking</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #23"
+date = 2022-01-27 18:00:00+01:00
+venue = "Blackbird"
+address = "Sundkaj 153, Pakhus 48, 2150 Nordhavn"
+content = """
+<p>We are happy to announce that <a href="https://blackbird.online/">Blackbird</a> will host the next meetup in their offices on Thursday, January 27th.</p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:05—18:15: Welcome back!</li>
+    <li>18:15—19:00: Talk by Simon Vandel Sillesen &amp; Co (<a href="https://blackbird.online/">Blackbird</a>): <a href="https://github.com/BlackbirdHQ/atat">ATAT: AT protocol abstractions in Rust</a></li>
+    <li>19:00—19:45: Pizza sponsored by Blackbird </li>
+    <li>19:45—: Hang out, hacking and networking</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #22"
+date = 2021-10-28 19:00:00+01:00
+venue = "Connected Cars"
+address = "Banemarksvej 2B, 2600 Glostrup"
+content = """
+<p>We're back! Join us for the first hack night in 2021. </p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>19:05—19:15: Welcome back!</li>
+    <li>19:15—20:00: Talk by Jorge Leitão (<a href="https://munindata.com">Munin Data</a>): <a href="https://github.com/jorgecarleitao/arrow2">Sound data engineering - from bits to DataFrames</a> </li>
+    <li>20:00—20:15: Snacking and networking </li>
+    <li>20:15—21:00: Talk by <a href="https://github.com/davidpdrsn">David Pedersen</a> (Embark Studios &amp; Tokio Core Team Member): <a href="https://github.com/tokio-rs/axum">How I joined Tokio and made a web framework in the process</a></li>
+    <li>21:00—: Hang out and networking</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #21"
+date = 2020-01-29 18:00:00+01:00
+venue = "Omnio"
+address = "Vester Voldgade 8"
+content = """
+January 29 2020, 18:00—22:00 @ Vester Voldgade 8 (Omnio)
+
+<p>Join us for the first hack night in 2020.</p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:15—19:00: Talk by Alice Ryhl: The Future is here</li>
+    <li>19:00—19:15 Food and hanging out</li>
+    <li>19:15—20:00: Talk by Jesper Steen Møller: <a href="https://github.com/rust-lang/rust/issues/45268#issuecomment-487768456">My tiny improvement in rustc</a></li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #20"
+date = 2019-11-27 18:00:00+01:00
+venue = "Omnio"
+address = "Vester Voldgade 8"
+content = """
+<p>This will be the last hack night of 2019, and also the 20th we've held in total.</p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:15—19:00: Talk by Fedor Logachev: Games Development in Rust (a follow-up on his first talk two months ago)</li>
+    <li>19:00—19:15 Food and hanging out</li>
+    <li>19:15—20:00: 2nd talk (open spot)</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #19"
+date = 2019-10-30 18:00:00+01:00
+venue = "Omnio"
+address = "Vester Voldgade 8"
+content = """
+<p>Join us for another great evening of talks all things Rust-y and hanging out. This month's hack night will feature two talks, so there is no reason not to be there!</p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:15—19:00: Talk by Gustav: Introduction to Entity-Component Systems in Rust</li>
+    <li>19:00—19:15 Food and hanging out</li>
+    <li>19:15—20:00: Talk spot: Still open</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #18"
+date = 2019-09-25 18:00:00+01:00
+venue = "Omnio"
+address = "Vester Voldgade 8"
+content = """
+<p>Join us for another great evening of talks all things Rust-y and hanging out. This month's hack night will feature two talks, so there is no reason not to be there!</p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:15—19:00: Talk by Valdemar Erk: Generating comprehensive bindings for Futhark in Rust </li>
+    <li>19:00—19:15 Food and hanging out</li>
+    <li>19:15—20:00: Talk by Fedor Logachev: Games Development in Rust</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #17"
+date = 2019-08-28 18:00:00+01:00
+venue = "Omnio"
+address = "Vester Voldgade 8"
+content = """
+<p>After a two-month summer hiatus, we're back! Join us for another great evening of talks all things Rust-y and hanging out. We have an <strong>open call for talks</strong>.</p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:15—19:30: Talk(s)</li>
+    <li>19:30—22:00 Food and hanging out</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #16"
+date = 2019-05-29 18:00:00+01:00
+venue = "Omnio"
+address = "Vester Voldgade 8"
+content = """
+<p>The sixteenth hack night for the Copenhagen Rust Group is upon us! Join us for another great evening of talks all things Rust-y and hanging out. We have an <strong>open call for talks</strong>.</p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:15—19:30: Talk by <a href="https://ryhl.io/">Alice Ryhl</a> on <strong>Futures in Rust</strong></li>
+    <li>19:30—22:00 Food and hanging out</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #15"
+date = 2019-04-25 18:00:00+01:00
+venue = "Omnio"
+address = "Sundkaj 7, Nordhavn"
+content = """
+<p>The fifteenth hack night for the Copenhagen Rust Group is upon us! Join us for another great evening of talks all things Rust-y and hanging out. We have an <strong>open call for talks</strong>.</p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:15—19:30: Talk by <a href="https://github.com/keisrk">Kei Shirakizawa</a> on "Wrapping <a href="http://snap7.sourceforge.net/">snap7</a> as a Rust crate."</li>
+    <li>19:30—22:00 Food and hanging out</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #14"
+date = 2019-03-28 18:00:00+01:00
+venue = "Omnio"
+address = "Sundkaj 7, Nordhavn"
+content = """
+<p>Join us when we, for the third time in 2019, get together and talk and hack some Rust! We have an <strong>open call for talks</strong>.</p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:30—19:30: Talk by <strong>TBA</strong></li>
+    <li>19:30—22:00 Food and hanging out</li>
+</ul>
+
+<p><strong>UPDATE</strong> Despite no announced talks, we ended up with two talks (!) - <a href="https://github.com/laumann">laumann</a> gave a talk on <a href="https://pijul.org/">Pijul</a>, a VCS that has explicit handling of conflicts based in category theory, fast algorithms and is written in Rust! </p>
+<p> Martin (or <code>|cos|</code>) followed up with a talk on deploying Rust code on Android, going through the steps to call dynamic linkable libraries from Java, via JNI. </p>
+
+"""
+
+[[past]]
+title = "Hack Night #0xC"
+date = 2019-02-28 18:00:00+01:00
+venue = "Omnio"
+address = "Sundkaj 7, Nordhavn"
+content = """
+<p>For the second time in a row, we will meet on the last day of the month! We have an <strong>open call for talks</strong>. </p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:30—19:30: Talk by <a href="https://github.com/liufuyang">Fuyang Liu</a> on <code>rust-nb</code>: <a href="https://github.com/liufuyang/rust-nb">A Simple Naive Bayes Model in Rust</a></li>
+    <li>19:30—22:00 Food and hanging out</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #12"
+date = 2019-01-31 18:00:00+01:00
+venue = "Omnio"
+address = "Sundkaj 7, Nordhavn"
+content = """
+<p>We skip the December Hack Night, and will reconvene again in the New Year of 2019. The next hack night will feature a presentation by James Dietrich on porting the Ruby gem <a href="https://github.com/github/scientist">scientist</a> to Rust. </p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:30—19:30: Talk by <a href="https://github.com/jbdietrich">James Dietrich</a>: <strong>Getting Closure on Scientist</strong></li>
+    <li>19:30—22:00 Food and hanging out</li>
+</ul>
+
+<p><strong>UPDATE</strong> Thanks to everyone that showed up! A lot of new faces and some veterans. We had a great night with pizza and James entertaining everybody with his insights into closures in Rust. The <a href="/assets/closure_presentation.pdf">slides are here</a>. </p>
+"""
+
+[[past]]
+title = "Hack Night #11"
+date = 2018-11-29 18:00:00+01:00
+venue = "Omnio"
+address = "Sundkaj 7, Nordhavn"
+content = """
+<p>November's hack night will take place at Omnio in Nordhavn, we'll try to have food sponsored by Omnio.</p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:30—19:30: Talk by <a href="https://github.com/cbourjau">Christian Bourjau</a></li>
+    <li>19:30—22:00 Food and hanging out</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night 0xa"
+date = 2018-10-25 18:00:00+01:00
+venue = "Zendesk"
+address = "Snaregade 12"
+content = """
+<p>The tenth hack night will take place either at Zendesk downtown.</p>
+
+<p>This time, we'll <em>actually</em> try to get some food sponsored. Stand by for news on that!</p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:30—19:30: Talk: By <a href="https://github.com/retep007">retep007</a></li>
+    <li>19:30—end Food and hanging out</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack #Nine"
+date = 2018-09-27 18:00:00+01:00
+venue = "Omnio"
+address = "Sundkaj 7, Nordhavn"
+content = """
+<p>The ninth hack night will take place in Nordhavn (at Omnio), this will be decided a little later. Going forward the default monthly hack night will be the <b>last Thursday of the month</b>.</p>
+
+<p>Submissions for talks are welcome! Are you working on an exciting Rust project? Have you discovered something in and around Rust that you'd like to share? Please talk about it!</p>
+
+<p>Agenda:</p>
+
+<ul>
+    <li>18:30—19:30: Talk: Parsers and State Machines in Rust</li>
+    <li>19:30—end Food and hanging out</li>
+</ul>
+"""
+
+[[past]]
+title = "Hack Night #8"
+date = 2018-08-30 18:00:00+01:00
+venue = "Omnio"
+address = "Sundkaj 7, Nordhavn"
+content = """
+<p>We will skip hack night in July, because it's holiday season and return strong in August!</p>
+"""
+
+[[past]]
+title = "Hack Night #7"
+date = 2018-06-28 18:00:00+01:00
+venue = "Omnio"
+address = "Sundkaj 7, Nordhavn"
+content = """
+<p>The next hack night will take place in Energy Hub in Nordhavn.</p>
+
+<p><code>laumann</code> will present a project he's been cooking for some time, otherwise the evening is open for hacking on your own projects in a cozy atmosphere.</p>
+
+<p>Snacks will be sponsored by <a href="https://omnio.net">Omnio</a>!</p>
+"""
+
+[[past]]
+title = "We're back! And it's fuzzy!"
+date = 2018-05-23 18:00:00+01:00
+venue = "Jobindex"
+address = "Holger Danskes Vej 91, Frederiksberg"
+content = """
+<p>After a long hiatus, we are starting up again with Rust hack nights. Our first meeting of 2018 will feature a presentation titled <b>Rust and Fuzz Testing</b>, delivered by the good folks at <a href="https://seasoned.software" target="_blank">Seasoned.Software</a>:</p>
+
+<blockquote style="font-style: italic">At <a href="https://seasoned.software" target="_blank">Seasoned.Software</a> we build a CI platform that uses fuzz testing to improve the quality of your software projects. We love Rust and we use it for most of our platform, and we support Rust projects as first class citizens. We will give a brief presentation on how Rust helped us build our platform, which problems we have encountered so far, and how we solved them. Afterwards we will explain why you should fuzz test your own projects and show how to set up fuzz testing for your own Rust projects.</blockquote>
+"""
+
+[[past]]
+title = "Rust Hack Night #5"
+date = 2017-05-17 18:00:00+01:00
+venue = "PROSA"
+address = "Vester Farimagsgade 37A"
+content = """
+<p>We get together to hack on our own Rust projects, talk Rust and have fun.</p>
+"""
+
+[[past]]
+title = "Yet Another Hack Night"
+date = 2017-04-26 18:00:00+01:00
+venue = ""
+address = "Kronprinsessegade 54, 5th floor"
+content = """
+<p>We get together to hack on our own Rust projects, talk Rust and have fun.</p>
+
+<p><b>UPDATE</b> We watched Raph Levien's <a href="https://www.youtube.com/watch?v=SKtQgFBRUvQ">presentation</a> on the <a href="https://github.com/google/xi-editor">Xi editor</a>, and spent some time trying to figure out if any of the linked frontends worked.</p>
+
+<p><a href="https://github.com/mbudde">mbudde</a> and <a href="https://github.com/laumann">laumann</a> also hacked on redshift-rs, cleaning up some code and enabling it to read a user's <code>~/.config/redshift.conf</code> configuration.</p>"""
+
+[[past]]
+title = "cph_rs.hack_night();"
+date = 2017-03-30 18:00:00+01:00
+venue = "Zendesk"
+address = "Snaregade 12"
+content = """
+<p>We get together to hack on our own Rust projects, talk Rust and have fun.</p>
+
+<p>Note that it is a different location than past events. We thought it'd be fun to move it around a bit and for this event, we will be hosted at Zendesk. Thanks to <a href="https://github.com/jbdietrich"><code>jdietrich</code></a> for setting it up!</p>"""
+
+[[past]]
+title = "Hack Night"
+date = 2017-02-23 18:00:00+01:00
+venue = ""
+address = "Kronprinsessegade 54, 5th floor"
+content = """
+<p>We get together to hack on our own Rust projects, talk Rust and have fun.</p>
+"""
+
+[[past]]
+title = "Hack Night"
+date = 2017-01-24 18:00:00+01:00
+venue = ""
+address = "Kronprinsessegade 54, 5th floor"
+content = """
+<p>Merry Christmas! Almost a year has gone by since the last meetup—but it is time again.</p>
+
+<p><strong>UPDATE</strong> An enjoyable evening working on individual projects. Among other things, <a href="https://github.com/laumann">laumann</a> added command-line arguments to <a href="https://github.com/laumann/redshift-rs">redshift-rs</a>, a <a href="http://jonls.dk/redshift/">Redshift</a> clone (using <a href="https://crates.io/crates/docopt">docopt</a>).</p>
+
+<p>We discussed implementing custom iterators for parsing emojis in text, and how to use the <code>?</code> operator that was stabilized in <a href="https://blog.rust-lang.org/2016/11/10/Rust-1.13.html">Rust 1.13</a>. </p>
+"""
+
+[[past]]
+title = "Hackathon"
+date = 2016-02-17 18:00:00+01:00
+venue = ""
+address = "Kronprinsessegade 54, 5th floor"
+content = """
+<p>Riding the wave from the smashing success (and pizza) of the first Hackathon, the next event is on the horizon. To find a date in February, we have the following <a href="http://doodle.com/poll/n3rbf6b97fw2n334">doodle</a> (it is closed now). Just select the days that suit you, and we will make a decision by the end of next week.</p>
+
+<p>Anyone is welcome, regardless of Rust proficiency (in fact, the hackathons are great places to pick up new knowledge fast).</p>"""
+
+[[past]]
+title = "Hackathon"
+date = 2016-01-13 18:00:00+01:00
+venue = ""
+address = "Kronprinsessegade 54, 5th floor"
+content = """
+<p>We get together to hack some Rust.</p>
+"""
+
+[[past]]
+title = "Rust 1.0 Release Party"
+date = 2015-05-15 18:00:00+01:00
+venue = "Robocat"
+address = "Pilestræde 43, 2nd floor"
+content = """
+<p>Along with <a href="https://users.rust-lang.org/t/rust-1-0-launch-event-details-action-required-for-event-organizers/1025/15">other Rust-enthusiastic groups</a>, we had a Rust 1.0 release party, with t-shirts and everything! Link to the <a href="https://www.eventbrite.com/e/copenhagen-rust-launch-party-tickets-16663376608?utm_campaign=new_attendee&amp;utm_medium=email&amp;utm_source=eb_email&amp;utm_term=event_name">event</a>. </p> 
+"""
+
+[[past]]
+title = "Rust - Copenhagen Tech Polyglot Meetup"
+date = 2015-03-18 18:00:00+01:00
+venue = ""
+address = "Kronprinsessegade 54, 4th floor"
+content = """
+A Rust event organized in collaboration with the <a href="http://polyglots.dk">Copenhagen Tech Polyglots</a>. We had a good evening talking all things Rust, and, of course, stickers. See the event <a href="http://www.meetup.com/Copenhagen-Tech-Polyglots/events/220800093/">here</a>. 
+"""

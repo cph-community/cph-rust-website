@@ -1,0 +1,13 @@
+base_url = "https://cph.rs/"
+
+title = "Copenhagen Rust Community"
+
+[markdown]
+highlight_code = true
+
+[extra]
+menu = [
+    { title = 'Meetup.com ', url = 'https://www.meetup.com/copenhagen-rust-community/' },
+    { title = 'Event archive', url = '/events' },
+    { title = 'Discord chat', url = 'https://discord.gg/UegkuMmtpN' },
+]
