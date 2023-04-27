@@ -1,10 +1,24 @@
 [[upcoming]]
 title = "Meetup #35"
-date = 2023-04-27 18:00:00+01:00
+date = 2023-04-27 17:00:00+01:00
 venue = "Google"
 address = "Sankt Petri Passage 5, København"
+url = "https://www.meetup.com/copenhagen-rust-community/events/292424926/"
 content = """
-Coming soon.
+<p>We are excited to welcome you to Rust meetup #35!</p>
+<p>This month we're happy to announce that Google Cloud will be hosting us for the second time!</p>
+
+<ul>
+<li>18:05—18:15: Welcome!</li>
+<li>18:15—19:00: “Actors with Tokio – a lesson in ownership” by Alice Ryhl</li>
+<li>19:00—19:45: Break with food &amp; drinks and a book raffle sponsored by O’Reilly</li>
+<li>19:50—20:35: “Paths, files and the lies we tell ourselves” by Gustav</li>
+<li>20:35—: Hang out and talk</li>
+</ul>
+
+<p>Just like last time it's mandatory to sign up at the following link before the 25th 12:00: <a href="https://rsvp.withgoogle.com/events/rust-meetup" target="_blank" class="!text-viridian" rel="ugc">https://rsvp.withgoogle.com/events/rust-meetup</a></p>
+
+<p>We look forward to seeing you all!</p>
 """
 
 [[recent]]
