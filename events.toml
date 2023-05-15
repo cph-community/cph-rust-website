@@ -1,7 +1,25 @@
 [[upcoming]]
 title = "Meetup #36"
 date = 2023-05-25 18:00:00+02:00
-venue = "TBA"
+venue = "Adapt"
+address = "Langebrogade 6a, 1411 København"
+url = "https://www.meetup.com/copenhagen-rust-community/events/293293863/"
+content = """
+<p>We are excited to welcome you to Rust meetup #36!<br>
+Adapt Agency has come to our rescue and saved us from a scheduling conflict with our original host this month, so they'll be welcoming us to their offices at Christianshavn again.<br>
+Please note there are only 50 spots for this meetup so make sure to sign up early as the spots are first come first serve :-)<br>
+For anyone who signs up after those 50 are taken there's a waiting list so if you are prevented from joining after all please remove your attendance to give someone else your spot, thank you!</p>
+<p>As usual, our program looks like this:</p>
+
+<ul>
+<li>18:05—18:15: Welcome!</li>
+<li>18:15—19:00: “Ditch the Rust Rewrite: A tale on the creation of libsyslog and libsyslog-sys” by Martin Samuelsson</li>
+<li>19:00—19:45: Break and food sponsored by <a href="https://adaptagency.com/" target="_blank" class="!text-viridian" rel="nofollow ugc">Adapt</a></li>
+<li>19:50—20:35: "Building an IOT undercover agent with Rust" by Luis</li>
+<li>20:35—: Hang out and talk</li>
+</ul>
+<p>We look forward to seeing you all!</p>
+"""
 
 [[recent]]
 title = "Meetup #35"
