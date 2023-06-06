@@ -1,4 +1,13 @@
 [[upcoming]]
+title = "Meetup #37"
+date = 2023-06-29 18:00:00+02:00
+venue = "Samsung"
+address = "Flæsketorvet 68, 1711 København"
+url = ""
+content = """
+"""
+
+[[recent]]
 title = "Meetup #36"
 date = 2023-05-25 18:00:00+02:00
 venue = "Adapt"
