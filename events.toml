@@ -1,10 +1,34 @@
 [[upcoming]]
+title = "Meetup #38"
+date = 2023-07-27 18:00:00+02:00
+venue = ""
+address = ""
+url = ""
+content = """
+"""
+
+[[recent]]
 title = "Meetup #37"
 date = 2023-06-29 18:00:00+02:00
 venue = "Samsung Semiconductor Research"
 address = "Flæsketorvet 68, 1711 København"
 url = "https://www.meetup.com/copenhagen-rust-community/events/294024476/"
 content = """
+<p>We are excited to welcome you to Rust meetup #37!<br>
+This time we're happy to announce that Samsung is hosting us at SOHO in Kødbyen.</p>
+<p>You're not gonna want to miss this one as Rob Ede, the lead developer of Actix, is flying in all the way from London.<br>
+Not only that but his arch nemesis, David Pedersen, the lead developer of the competing web framework Axum, is also giving a talk.</p>
+<p>As usual, our program looks like this:</p>
+<ul>
+<li>18:05—18:15: Welcome!</li>
+<li>18:15—19:00: "Crate Expectations - a look at considerations for maintaining Rust libraries" by <a href="https://twitter.com/robjtede" target="_blank" class="!text-viridian" rel="ugc">Rob Ede</a></li>
+<li>19:00—19:45: Break and food sponsored by Samsung</li>
+<li>19:50—20:35: “API evolution in axum” by <a href="https://twitter.com/davidpdrsn" target="_blank" class="!text-viridian" rel="ugc">David Pedersen</a></li>
+<li>20:35—: Hang out and talk</li>
+</ul>
+<p>Please note there are only 50 spots for this meetup so make sure to sign up early as the spots are first come first serve :-)<br>
+For anyone who signs up after those 50 are taken there's a waiting list so if you are prevented from joining after all please remove your attendance to give someone else your spot, thank you!</p>
+<p>We look forward to seeing you all!</p>
 """
 
 [[recent]]
