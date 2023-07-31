@@ -1,10 +1,29 @@
 [[upcoming]]
-title = "Meetup #38"
-date = 2023-07-27 18:00:00+02:00
+title = "Meetup #39"
+date = 2023-08-30 18:00:00+02:00
 venue = ""
 address = ""
 url = ""
 content = """
+"""
+
+[[recent]]
+title = "Meetup #38"
+date = 2023-06-29 18:00:00+02:00
+venue = "Deloitte"
+address = "Weidekampsgade 6"
+url = "https://www.meetup.com/copenhagen-rust-community/events/294780997/"
+content = """
+<p>We are hyped to welcome you to Rust meetup #38 at the Manhatten of Copenhagen, Amager, at Deloitte's offices.</p>
+<p>We have two exciting talks ahead of us featuring Deloitte's usage of Rust, and a guest visitor from <a href="https://www.meetup.com/rust-aarhus/" target="_blank" class="!text-viridian">Rust Aarhus</a> on sudoku solving!</p>
+<p>18:05—18:15: Welcome!<br>
+18:15—19:00: "Tools that get better with some Rust" by <a href="https://www.linkedin.com/in/eduard-kyvenko-9a04503a/" target="_blank" class="!text-viridian" rel="ugc">Eduard Kyvenko </a><br>
+19:00—19:45: Break and food sponsored by Deloitte<br>
+19:50—20:35: "Solving sudokus with Rust Iterators" by <a href="https://www.linkedin.com/in/nskovmand/" target="_blank" class="!text-viridian" rel="ugc">Niels Skovmand</a><br>
+20:35—: Hang out and talk</p>
+<p>Please note there are only 60 spots for this meetup so make sure to sign up early as the spots are first come first serve :-)</p>
+<p>For anyone who signs up after those 60 are taken there's a waiting list so if you are prevented from joining after all please remove your attendance to give someone else your spot, thank you!</p>
+<p>We look forward to seeing you all!</p>
 """
 
 [[recent]]
