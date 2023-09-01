@@ -1,6 +1,6 @@
 [[upcoming]]
-title = "Meetup #39"
-date = 2023-08-30 18:00:00+02:00
+title = "Meetup #40"
+date = 2023-09-28 18:00:00+02:00
 venue = ""
 address = ""
 url = ""
@@ -8,8 +8,26 @@ content = """
 """
 
 [[recent]]
+title = "Meetup #39"
+date = 2023-08-29 18:00:00+02:00
+venue = "Novo Nordisk Digital Innovation Hub"
+address = "Rued Langgaardsvej 5"
+url = "https://www.meetup.com/copenhagen-rust-community/events/294806394/"
+content = """
+<p>We are excited to welcome you to Rust meetup #39 sponsored by <a href="https://www.fermyon.com/" target="_blank" rel="nofollow">Fermyon</a>!</p>
+<p>Make sure to double-check the date as the meetup will happen on a Wednesday rather than our usual Thursday.</p>
+<p>The plan looks as follows:</p>
+<p>18:05—18:15: Welcome!</p>
+<p>18:15—19:00: “An introduction to Spin, a serverless WebAssembly framework written in Rust” By Mikkel Hegnhoj &amp; Sohan Maheshwar from <a href="https://www.fermyon.com/" target="_blank" rel="nofollow">Fermyon</a></p>
+<p>19:00—19:45: Break and food sponsored by Fermyon</p>
+<p>19:50—20:35: "Rust embedded at Espressif" by <a href="https://mabez.dev/" target="_blank"  rel="nofollow">Scott Mabin </a>from Espressif</p>
+<p>20:35—: Hang out and talk</p>
+<p>We look forward to seeing you all! 🦀</p>
+"""
+
+[[recent]]
 title = "Meetup #38"
-date = 2023-06-29 18:00:00+02:00
+date = 2023-07-27 18:00:00+02:00
 venue = "Deloitte"
 address = "Weidekampsgade 6"
 url = "https://www.meetup.com/copenhagen-rust-community/events/294780997/"
