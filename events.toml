@@ -1,10 +1,21 @@
 [[upcoming]]
 title = "Meetup #40"
 date = 2023-09-28 18:00:00+02:00
-venue = "TBD"
-address = ""
-url = ""
+venue = "University of Copenhagen (KU)"
+address = "TBD"
+url = "https://www.meetup.com/copenhagen-rust-community/events/296105597"
 content = """
+<p>We are excited to welcome you to Rust meetup #40 sponsored by <a href="https://www.embark-studios.com/" target="_blank" class="!text-viridian" rel="nofollow ugc">Embark Studios</a> and hosted by Copenhagen University (KU)!</p>
+<p>This time we've pulled out all the stops in order to double our capacity to 100 slots 🎉<br>
+We'll have the pleasure of listening to two amazing speakers: None other than Alice Ryhl of Tokio fame and Jon Gjengset best known for his "Rust for Rustaceans" book!</p>
+<p>The plan looks as follows:</p>
+<p>18:05—18:15: Welcome!<br>
+18:15—19:00: “Send is not about ownership” By <a href="https://ryhl.io/" target="_blank">Alice Ryhl</a><br>
+19:00—19:45: Break and food sponsored by Embark Studios<br>
+19:50—20:45: "impl Trait: look ma', no generics!" by <a href="https://thesquareplanet.com/" target="_blank">Jon Gjengset</a><br>
+20:45—: Hang out and talk</p>
+<p>We are still finalizing the details around where at KU we'll be so keep an eye out for updates to the event!</p>
+<p>We look forward to seeing you all! 🦀</p>
 """
 
 [[recent]]
