@@ -1,4 +1,21 @@
 [[upcoming]]
+title = "Meetup #41"
+date = 2023-10-26 18:00:00+02:00
+venue = "Factbird"
+address = "Nyropsgade 37, København V"
+url = "https://www.meetup.com/copenhagen-rust-community/events/296819462/"
+content = """
+<p class="">We are excited to welcome you to Rust meetup #41 sponsored by <a href="https://www.factbird.com/" target="_blank" class="!text-viridian" rel="nofollow ugc">Factbird</a>!</p>
+<p class="">The plan looks as follows:</p>
+<p class="">18:05—18:15: Welcome!<br>
+18:15—19:00: “Hex map generation using wave function collapse” By <a href="https://www.linkedin.com/in/troelshoffmeyer/" target="_blank" class="!text-viridian" rel="ugc">Troels Hoffmeyer</a><br>
+19:00—19:45: Break and food sponsored by Factbird<br>
+19:50—20:35: "A Tour of the Terminal" by Mark Jordan-Kamholz<br>
+20:35—: Hang out and talk</p>
+<p class="">We look forward to seeing you all! 🦀</p>
+"""
+
+[[recent]]
 title = "Meetup #40"
 date = 2023-09-28 18:00:00+02:00
 venue = "University of Copenhagen (KU)"
