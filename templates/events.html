@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block sidebar %}
+{% set toc = ['upcoming', 'recent', 'past'] %}
+<aside class="toc">
+    {% if section.toc %}{% set toc = section.toc %}{% elif page.toc %}{% set toc = page.toc %}{% endif %}
+    {% if toc %}
+    <div class="toc-sticky">
+        <div class="toc-item">
+            <a href="#events">Events</a>
+        </div>
+        {% for h in toc %}
+        <div class="toc-item-child">
+            <a href="#{{h}}">{{ h | capitalize }}</a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</aside>
+{% endblock sidebar %}
+
+{% block content %}
+<h1 class="title">
+  {{ section.title }}
+</h1>
+
+{{ section.content | safe }}
+
+{% set groups = ['upcoming', 'recent', 'past'] %}
+{% set meetups = load_data(path="events.toml") %}
+
+{% for group in groups %}
+
+    {% if meetups[group] %}
+    <section>
+        <h2 id="{{group}}">{{ group | capitalize }}</h2>
+
+        {% for event in meetups[group] %}
+        {% set event_page = section.pages | filter(attribute="title", value=event.title) | first%}
+        
+        {% if event_page %}
+            <a class="event-page-link" href="events/{{ event_page.slug }}">
+                <h3>
+                    {{ event_page.title }}
+                </h3>
+            </a>
+        {% else %}
+            <article>
+                <details>
+                    <summary>
+                        <h3>
+                            {{ event.title }}
+                        </h3>
+                    </summary>
+                
+                    {{ macros::event_attributes(event=event) }}
+                </details>
+            </article>
+            {% endif %}
+        {% endfor %}
+    </section>
+    {% endif %}
+
+{% endfor %}
+
+{% endblock content %}

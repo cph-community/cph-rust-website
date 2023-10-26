@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block content %}
+<h1 class="title">
+  {{ page.title }}
+</h1>
+
+{% set meetups = load_data(path="events.toml") %}
+{% set upcoming = meetups['upcoming'] %}
+{% set all_events = meetups['recent'] | concat(with=upcoming) %}
+
+{% set event = all_events | filter(attribute="title", value=page.title) | first %}
+
+{% if event %}
+    <details>
+        <summary>
+            <h3>Details about this event</h3>
+        </summary>
+        {{ macros::event_attributes(event=event) }}
+    </details>
+{% else %}
+    No data found for this event.
+{% endif %}
+
+{{ page.content | safe }}
+
+{% endblock content %}

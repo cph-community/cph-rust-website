@@ -1,10 +1,12 @@
 {% set meetups = load_data(path="events.toml") %}
 
-{% if meetups[group] %}
-## {{ group | capitalize }}
+{% if meetups['recent'] %}
+## {{ 'recent' | capitalize }}
 
-{% for item in meetups[group] %}
+{% for item in meetups['recent'] %}
 ### {{ item.title }}
+
+{% if item.event_page %}yo{% endif %}
 
 {% if item.url %}**Link:** [Meetup.com]({{ item.url }}){% endif %}  
 **Date:** {% if item.date %}<time datetime="{{ item.date }}">{{ item.date | date(format="%A, %e %B %Y", timezone="Europe/Berlin") }}</time>  {% else %}(No date found)  {% endif %}
@@ -13,3 +15,4 @@
 
 {% endfor %}
 {% endif %}
+

@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🦀</text></svg>" />
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
     {% block header %}
     <header>
         <nav>
-            <img class="logo" src="../cph-rs-ferris.png">
+            <img class="logo" src="/cph-rs-ferris.png">
             <a href="./">
                 <h1>Copenhagen Rust Community</h1>
             </a>
@@ -22,7 +22,7 @@
     </header>
     {% endblock header %}
 
-    <main {% if page %}class="page-{{page.slug}}"{% endif %}>
+    <main {% if page %}class="page-{{page.slug}}"{% endif %} {% if section %}class="section-{{section.title | lower}}"{% endif %}>
         {% block sidebar %}
         {% endblock sidebar %}
         <div class="content">
