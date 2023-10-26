@@ -40,7 +40,7 @@
         {% set event_page = section.pages | filter(attribute="title", value=event.title) | first%}
         
         {% if event_page %}
-            <a class="event-page-link" href="events/{{ event_page.slug }}">
+            <a class="event-page-link" href="../events/{{ event_page.slug }}">
                 <h3>
                     {{ event_page.title }}
                 </h3>
