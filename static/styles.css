@@ -8,7 +8,7 @@
   --primary-text-color: #323232;
   --primary-text-color-over: #000;
   --background-color: #fff;
-  --secondary-text-color: #303030;
+  --secondary-text-color: #5e5e5e;
   --box-background-color: #fcfbf9;
   --code-color: #ffccb5;
   --code-background-color: #4a4a4a;
@@ -42,6 +42,11 @@ body {
 
 a {
   color: var(--primary-link-color);
+}
+
+a:hover {
+  opacity: .6;
+  text-decoration: none;
 }
 
 ul {
@@ -113,17 +118,19 @@ main h1:first-of-type {
 h1 {
   font-size: 2.2rem;
   font-weight: 500;
-  color: var(--primary-text-color);
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  color: var(--primary-text-color);
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
 }
 
 aside {
@@ -223,14 +230,10 @@ aside {
   padding: 0;
 }
 
-.content a:hover {
-  text-decoration: underline;
-}
-
-.content blockquote {
+blockquote {
   margin: 0;
   padding: .5rem 1.5rem;
-  border-left: var(--code-background-color) 8px solid;
+  border-left: var(--code-background-color) .25rem solid;
   background-color: var(--box-background-color);
 }
 
@@ -254,16 +257,11 @@ aside {
   opacity: 0.8;
 }
 
-.section-events h2 {
-  color: var(--secondary-text-color); 
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-}
-
 .section-events h3 {
-  font-size: 1.5rem;
   margin-top: .5rem;
   margin-bottom: .5rem;
+  padding-left: .3rem;
+  
 }
 
 .event-page-link {
@@ -282,24 +280,21 @@ details summary {
 }
 
 details summary:hover {
-  background: #303030;
+  background: var(--box-background-color);
 }
 
 details summary > * {
   display: inline-block;
-}
-
-details {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  color: var(--secondary-text-color);
+  vertical-align: middle;
 }
 
 details[open] {
-  background: #303030;
+  background: var(--box-background-color);
 }
 
-dl {
-  padding-left: 2rem;
+details > div {
+  padding: 0 2.5rem 1rem;
 }
 
 dt {
@@ -310,9 +305,8 @@ dd {
   margin-bottom: .5rem;
 }
 
-dd:last-child {
-  padding-top: 1rem;
-  margin-left: 0;
+dd > blockquote {
+  margin: 1rem 0 0 0;
 }
 
 .youtube-container {

@@ -47,14 +47,15 @@
             </a>
         {% else %}
             <article>
-                <details>
+                <details {% if group == 'upcoming' %}open{% endif %}>
                     <summary>
                         <h3>
                             {{ event.title }}
                         </h3>
                     </summary>
-                
-                    {{ macros::event_attributes(event=event) }}
+                    <div>
+                        {{ macros::event_attributes(event=event) }}
+                    </div>
                 </details>
             </article>
             {% endif %}

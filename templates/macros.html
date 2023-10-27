@@ -2,7 +2,7 @@
 <dl>
     {% if event.url %}
     <dt>
-        Event link
+        Signup
     </dt>
     <dd>
         <a href="{{ event.url }}">{{ event.title}} on Meetup.com</a>
@@ -14,9 +14,9 @@
     </dt>
     <dd>
         {% if event.date %}
-        <time datetime="{{ event.date }}">{{ event.date | date(format="%A, %e %B %Y", timezone="Europe/Berlin") }}</time>  
+            <time datetime="{{ event.date }}">{{ event.date | date(format="%A, %e %B %Y", timezone="Europe/Berlin") }}</time>  
         {% else %}
-        (No date found)
+            (No date found)
         {% endif %}
     </dd>
 
