@@ -2,51 +2,7 @@
 
 {% block title %}{{ page.title }} | {{ super() }} {% endblock title %}
 
-{% block sidebar %}
-<aside class="toc">
-    {% if section.toc %}{% set toc = section.toc %}{% elif page.toc %}{% set toc = page.toc %}{% endif %}
-    {% if toc %}
-    <div class="toc-sticky">
-        {% for h in toc %}
-        <div class="toc-item">
-            <a href="{{h.permalink | safe}}">{{ h.title }}</a>
-        </div>
-        {% if h.children %}
-            {% for h2 in h.children %}
-            <div class="toc-item-child">
-                <a href="{{h2.permalink | safe}}">{{ h2.title }}</a>
-            </div>
-            {% endfor %}
-        {% endif %}
-        {% endfor %}
-    </div>
-    {% endif %}
-</aside>
-{% endblock sidebar %}
-
 {% block content %}
 <h1>{{ page.title }}</h1>
 {{ page.content | safe }}
 {% endblock content %}
-
-{% block script %}
-<script>
-    const scrollHandler = entries => {
-        let entry = entries.find(entry => { return entry.isIntersecting && entry.intersectionRatio > 0.9; });
-        if (!entry) return;
-
-        document.querySelectorAll(".toc a").forEach((item) => {
-            item.classList.remove("active");
-        });
-
-        let link = document.querySelector(`.toc a[href$="${decodeURIComponent(`#${entry.target.id}`)}"]`)
-        if (link) {
-            link.classList.add("active");
-            link.scrollIntoView({ behavior: "auto", block: "nearest" });
-        }
-    };
-    const observer = new IntersectionObserver(scrollHandler, { threshold: 1 });
-    let items = document.querySelectorAll('h1,h2,h3,h4,h5,h6');
-    items.forEach(item => observer.observe(item));
-</script>
-{% endblock script %}

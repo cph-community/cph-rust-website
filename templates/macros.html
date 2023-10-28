@@ -1,37 +1,33 @@
 {% macro event_attributes(event) %}
 <dl>
-    {% if event.url %}
-    <dt>
-        Signup
-    </dt>
-    <dd>
-        <a href="{{ event.url }}">{{ event.title}} on Meetup.com</a>
-    </dd>
-    {% endif %}
-    
-    <dt>
-        Date
-    </dt>
+    <dt>Date</dt>
     <dd>
         {% if event.date %}
-            <time datetime="{{ event.date }}">{{ event.date | date(format="%A, %e %B %Y", timezone="Europe/Berlin") }}</time>  
+            <time datetime="{{ event.date }}">{{ event.date | date(format="%A, %e %B %Y at %R", timezone="Europe/Berlin") }}</time>  
         {% else %}
-            (No date found)
+            <i>To be announced</i>
         {% endif %}
     </dd>
 
-    <dt>
-        Venue
-    </dt>
+    <dt>Venue</dt>
     <dd>
         {% if event.venue %}
             {{ event.venue }} – {% endif %}
             {% if event.address %}{{ event.address }}
         {% else %}
-            (No venue)  
+            <i>To be announced</i>
         {% endif %}
     </dd>
     
+    <dt>Signup</dt>
+    <dd>
+        {% if event.url %}
+            <a href="{{ event.url }}">{{ event.title}} on Meetup.com</a>
+        {% else %}
+            <i>To be announced</i>
+        {% endif %}
+    </dd>
+
     {% if event.content -%}
     <dt>Description</dt>
     <dd>
@@ -40,3 +36,9 @@
     {% endif %}
 </dl>
 {% endmacro event_attributes %}
+
+{% macro last_update() %}
+<footer>
+    <small>Last updated: {{ now()| date(format="%e %B at %H:%M", timezone="Europe/Berlin") }}</small>
+</footer>
+{% endmacro last_update %}

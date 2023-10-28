@@ -1,50 +1,43 @@
 {% extends "base.html" %}
-
-{% block sidebar %}
-        <aside class="menu">
-            {% set events = load_data(path="events.toml") %}
-            
-            {%- set nextEvent = events.upcoming | last %}
-            {%- if nextEvent -%}
-            <h2>Next event</h2>
-            
-            {% if nextEvent.url %}
-                <a class="title" href="{{ nextEvent.url }}">{{ nextEvent.title }}</a>
-                {% else %}
-                <span class="title">{{ nextEvent.title }}</span>
-            {% endif -%}
-            {% if nextEvent.date %}
-                <time datetime="{{ nextEvent.date }}">{{ nextEvent.date | date(format="%A, %e %B at %H:%M", timezone="Europe/Berlin") }}</time>
-                {% else %}
-                <div>(No date announced)</div>
-            {% endif -%}
-            {%- if not nextEvent.url -%}<div>(Link coming soon)</div>{%- endif -%}
-            {% endif %}
-
-            {%- set recentEvent = events.recent | first %}
-            {%- if recentEvent -%}
-            <h2>Recent event</h2>
-            
-            {% if recentEvent.url %}
-                <a class="title" href="{{ recentEvent.url }}">{{ recentEvent.title }}</a>
-                {% else %}
-                <span class="title">{{ recentEvent.title }}</span>
-            {% endif -%}
-            {% if recentEvent.date %}
-                <time datetime="{{ recentEvent.date }}">{{ recentEvent.date | date(format="%A, %e %B", timezone="Europe/Berlin") }}</time>
-                {% else %}
-                <div>(No date found)</div>
-            {% endif -%}
-            {%- if not recentEvent.url -%}<div>(No link found)</div>{%- endif -%}
-            {% endif %}
-            
-            <h2>Links</h2>
-            {% for menu in config.extra.menu %}
-            <a class="button" {% if menu.url %}href="{{ menu.url | safe }}"{% endif %}>{{ menu.title }}</a>
-            {%- endfor %}
-        </aside>
-{% endblock sidebar %}
+{% import "macros.html" as macros %}
 
 {% block content %}
-{{ section.content | safe }}
+<aside>
+    <h2>Updates</h2>
+    {% set events = load_data(path="events.toml") %}
+    
+    {%- set nextEvent = events.upcoming | last %}
+    {%- if nextEvent -%}
+    <p>
+        Next event:
+        <a href="/events">{{ nextEvent.title }}</a>
+
+        {% if nextEvent.date %}
+            <time datetime="{{ nextEvent.date }}">{{ nextEvent.date | date(format="%A, %e %B", timezone="Europe/Berlin") }}</time>
+        {% else %}
+            <i>To be announced</i>
+        {% endif -%}
+    </p>
+    {% endif %}
+
+    {%- set recentEvent = events.recent | first %}
+    {%- if recentEvent -%}
+    <p>
+        Recent event:
+        <a href="/events">{{ recentEvent.title }}</a>
+
+        {% if recentEvent.date %}
+            <time datetime="{{ recentEvent.date }}">{{ recentEvent.date | date(format="%A, %e %B", timezone="Europe/Berlin") }}</time>
+        {% endif -%}
+    </p>
+    {% endif %}
+</aside>
+
+<article>
+    {{ section.content | safe }}
+</article>
 {% endblock content %}
+
+{% block footer %}
+    {{ macros::last_update() }}
+{% endblock footer %}

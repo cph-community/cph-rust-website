@@ -83,4 +83,6 @@ The [Citizen Code of Conduct](https://github.com/stumpsyn/policies/blob/master/c
 
 Portions of text derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
 
-*This document is based on the Citizen Code of Conduct, originally retrieved on October 26, 2023. Last updated on October 26, 2023.*
+*This document is based on the Citizen Code of Conduct, retrieved on October 26, 2023.*
+
+*Last updated on October 26, 2023.*

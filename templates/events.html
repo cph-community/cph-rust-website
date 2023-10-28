@@ -1,27 +1,8 @@
 {% extends "base.html" %}
 {% import "macros.html" as macros %}
 
-{% block sidebar %}
-{% set toc = ['upcoming', 'recent', 'past'] %}
-<aside class="toc">
-    {% if section.toc %}{% set toc = section.toc %}{% elif page.toc %}{% set toc = page.toc %}{% endif %}
-    {% if toc %}
-    <div class="toc-sticky">
-        <div class="toc-item">
-            <a href="#events">Events</a>
-        </div>
-        {% for h in toc %}
-        <div class="toc-item-child">
-            <a href="#{{h}}">{{ h | capitalize }}</a>
-        </div>
-        {% endfor %}
-    </div>
-    {% endif %}
-</aside>
-{% endblock sidebar %}
-
 {% block content %}
-<h1 class="title">
+<h1>
   {{ section.title }}
 </h1>
 
@@ -64,5 +45,8 @@
     {% endif %}
 
 {% endfor %}
-
 {% endblock content %}
+
+{% block footer %}
+    {{ macros::last_update() }}
+{% endblock footer %}

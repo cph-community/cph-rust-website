@@ -4,9 +4,9 @@ title = "index"
 
 ## About
 
-A place for aspiring and experienced Rust enthusiasts to come together to discover and discuss the latest Rust developments, showcase Rust projects and crates, network and meet each other in a supportive community. 🦀🧡
+A place for everyone interested in the [Rust language](https://rust-lang.org) to come together to discover and discuss the latest developments, showcase projects and crates, network and meet each other in a supportive community. 🦀🧡
 
-We meet on a monthly basis somewhere in Copenhagen and are open to everyone interested in learning more about Rust, even if you have no prior experience with the language.
+We meet on a monthly basis somewhere in Copenhagen and are open to everyone interested in learning more about Rust, even if you have no prior experience with the language. We have members from all over the world, so we always speak English at our events.
 
 ## Organizers
 
