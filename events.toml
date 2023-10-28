@@ -1,10 +1,20 @@
 [[upcoming]]
 title = "Meetup #42"
-date = 2023-11-30 18:00:00+02:00
+date = 2023-11-30 18:00:00+01:00
 venue = "Nine A/S"
 address = "Kongens Nytorv 18, 1050 København"
 url = ""
 content = """
+"""
+
+[[upcoming]]
+title = "Hacknight #0"
+date = 2023-11-09 18:00:00+01:00
+venue = ""
+address = ""
+url = ""
+content = """
+We're trying something new - more info coming soon.
 """
 
 [[recent]]
