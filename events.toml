@@ -10,11 +10,24 @@ content = """
 [[upcoming]]
 title = "Hacknight #0"
 date = 2023-11-09 18:00:00+01:00
-venue = ""
-address = ""
-url = ""
+venue = "Adapt Agency"
+address = "Langebrogade 6a, 1411 København"
+url = "https://www.meetup.com/copenhagen-rust-community/events/297097461/"
 content = """
-We're trying something new - more info coming soon.
+<p class="">We are excited to welcome you to the Rust coding night #0 hosted by <a href="https://adaptagency.com/" target="_blank">Adapt Agency</a>!</p>
+<p class="">Couldn't make the Rust meetup because all the seats were taken? As a supplement to the wildly popular monthly Copenhagen Rust meetups, coding night means less chat, more code. Each coding night has a theme under which people are free to explore. You can show up with an existing project within the theme, or you can show up barehanded and start from scratch.</p>
+<p class="">This time we're looking at: Leptos, a reactive wasm web-framework that lets you write Rust in the browser. You can get a head start with Leptos: https://leptos.dev/</p>
+<p class="">Towards the end of the coding night we have allocated a short amount of time for show-and-tell in case you have something you want to show off. Others are free to continue their thing simultaneously, this is just inspirational.</p>
+<p class="">The plan looks as follows:</p>
+
+<p class="">18:00 - 18:10: begin();</p>
+<p class="">18:10 - 20:45: hack();</p>
+<p class="">20:30 - 20:45: show_and_tell();</p>
+<p class="">20:45 - 20:55: end();</p>
+
+<p class="">We are not able to provide food and drinks for this event, so make sure to bring what you need to stay energized for the night. And apart from your dinner box, remember also to bring your own computing devices.</p>
+<p class="">Lastly, as we have limited seats we kindly remind you to cancel your RSVP a day before if you can't make it so that others may attend.</p>
+<p class="">We look forward to seeing you all!</p>
 """
 
 [[recent]]
