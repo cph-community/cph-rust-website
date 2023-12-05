@@ -1,13 +1,31 @@
 [[upcoming]]
+title = "Hacknight #1"
+date = 2023-12-27 18:00:00+01:00
+venue = "TBA"
+address = ""
+url = ""
+content = """
+More info coming soon.
+"""
+
+[[recent]]
 title = "Meetup #42"
 date = 2023-11-30 18:00:00+01:00
 venue = "Nine A/S"
 address = "Kongens Nytorv 18, 1050 København"
-url = ""
+url = "https://www.meetup.com/copenhagen-rust-community/events/297405705/"
 content = """
+<p>We are excited to welcome you to Rust meetup #42 sponsored by <a href="https://nine.dk/" target="_blank" rel="nofollow ugc">Nine</a>!</p>
+<p>The plan looks as follows:</p>
+<p>18:05—18:15: Welcome!<br>
+18:15—19:00: “Introduction to Automated Testing” By <a href="https://yoshuawuyts.com/" target="_blank" rel="nofollow ugc">Yosh Wuyts</a><br>
+19:00—19:45: Break and food sponsored by Nine A/S<br>
+19:50—20:35: "Programmable fonts with Rust" by <a href="https://www.linkedin.com/in/valdemar-erk" target="_blank" rel="ugc">Valdemar Erk</a><br>
+20:35—: Hang out and talk</p>
+<p>We look forward to seeing you all! 🦀</p>
 """
 
-[[upcoming]]
+[[recent]]
 title = "Hacknight #0"
 date = 2023-11-09 18:00:00+01:00
 venue = "Adapt Agency"
