@@ -1,11 +1,25 @@
 [[upcoming]]
 title = "Hacknight #1"
-date = 2023-12-27 18:00:00+01:00
-venue = "TBA"
-address = ""
-url = ""
+date = 2023-12-27 16:00:00+01:00
+venue = "Datalogisk Institut, Københavns Universitet (DIKU)"
+address = "Universitetsparken 1"
+url = "https://www.meetup.com/copenhagen-rust-community/events/297894275/"
 content = """
-More info coming soon.
+<p>There is no regular Rust meetup with talks during this December.</p>
+<p>So we are excited to welcome you to Rust Hacknight #1 at DIKU!</p>
+<p>This night we're hacking CLIs and TUIs. Also, make your own plush Ferris.</p>
+<p>Come and build that terminal program you have been thinking of.</p>
+<p>Keywords: clap, ratatui, cursive, crossterm, r3bl_tuify</p>
+<p>For those of you who have looked with envy at Vanja's plush Ferris: orange cloth, scissors and needles will be provided for those who want to try and make one. We can't promise Vanja's mom will be available for guidance.</p>
+<p>The plan looks as follows:<br>
+16:00 - 16:10: begin();<br>
+16:10 - 20:40: hack();<br>
+20:40 - 20:55: show_and_tell();<br>
+20:55 - 21:00: end();</p>
+<p>This hacknight is beginner friendly: There will be people who can answer questions if you get stuck on the intricacies of Clap macros. There will be examples you can steal from. We do expect that you have the Rust toolchain installed on your computer, and perhaps have tried Hello World or Rustlings.</p>
+<p>We have not requested food sponsorship, but Prosa will generously provide gløgg (with and without alcohol), æbleskiver and Christmas cookies.</p>
+<p>Lastly, as we have limited seats we kindly remind you to cancel your RSVP a day before if you can't make it so that others may attend.</p>
+<p>We look forward to seeing you all</p>
 """
 
 [[recent]]
