@@ -1,4 +1,45 @@
 [[upcoming]]
+title = "Hacknight #2"
+date = 2024-02-15 17:00:00+01:00
+venue = "Datalogisk Institut, Københavns Universitet (DIKU)"
+address = "Universitetsparken 1"
+url = "https://www.meetup.com/copenhagen-rust-community/events/298999792/"
+content = """
+<p>We are excited to welcome you to Rust Hack Night #2 at DIKU.</p>
+<p>Tonight we're hacking compilers, parsers, interpreters.</p>
+<p>Work on your pet DSL, build a parser for something, or abuse the `syn` crate.</p>
+<p>For this hack night we'd like to level up: Think about 1-3 crates you think anyone building a compiler in Rust should know about. In the beginning of the evening we collect what people brought and ask participants to pitch each of the most popular choices and why this crate is so great they're using it tonight.</p>
+<p>17:00 - 17:10: begin();<br>
+17:10 - 17:20: promote_crates();<br>
+17:20 - 21:30: hack();<br>
+21:30 - 21:55: show_and_tell();<br>
+21:55 - 22:00: end();</p>
+<p>This hack night assumes familiarity with Rust and compilers, but not necessarily compilers made in Rust.</p>
+<p>We kindly remind you to cancel your RSVP a day before if you can't make it so that others may attend.</p>
+<p>We look forward to seeing you all!</p></div>
+"""
+
+[[recent]]
+title = "Meetup #43"
+date = 2024-01-25 18:00:00+01:00
+venue = "Google Copenhagen"
+address = "Sankt Petri Passage 5, København"
+url = "https://www.meetup.com/copenhagen-rust-community/events/298425730/"
+content = """
+<p>We are excited to welcome you back after the new year to Rust Meetup #43 sponsored by Google!<br>
+<strong>RSVPs open at January 18, 18:00</strong></p>
+<p>The plan looks as follows:</p>
+<p>18:05—18:15: Welcome!<br>
+18:15—19:00: “Linux block device drivers in Rust” By <a href="https://www.linkedin.com/in/andreashindborg" target="_blank" class="!text-viridian" rel="ugc">Andreas Hindborg</a><br>
+19:00—19:45: Break and food sponsored by Google<br>
+19:50—20:35: "Rust in the Linux kernel" by <a href="https://www.linkedin.com/in/aliceryhl/" target="_blank" class="!text-viridian" rel="ugc">Alice Ryhl</a><br>
+20:35—: Hang out and talk</p>
+<p>As usual, Google requires nametags and as such you'll have to register here as well: <a href="https://rsvp.withgoogle.com/events/rust-meetup_q1" target="_blank" class="!text-viridian" rel="ugc">https://rsvp.withgoogle.com/events/rust-meetup_q1</a><br>
+Access will not be granted without a nametag and keep in mind meetup is the authoritative attendance list so only signup above if you're on the "going" list 😊</p>
+<p>We look forward to seeing you all! 🦀</p>
+"""
+
+[[recent]]
 title = "Hacknight #1"
 date = 2023-12-27 16:00:00+01:00
 venue = "Datalogisk Institut, Københavns Universitet (DIKU)"
