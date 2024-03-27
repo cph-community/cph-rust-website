@@ -1,3 +1,73 @@
+[[recent]]
+title = "Meetup #45"
+date = 2024-03-27 18:00:00+01:00
+venue = "Factbird"
+address = "Nyropsgade 37"
+url = "https://www.meetup.com/copenhagen-rust-community/events/299949053/"
+content = """
+<p>We are excited to welcome you to Rust meetup #45 sponsored by <a href="http://factbird.com" target="_blank" rel="nofollow">Factbird</a>! Note that we re-created the event since it was moved to Wednesday due to Skærtorsdag (Maundy Thursday).</p>
+<p>The plan looks as follows:</p>
+<p>18:05–18:15: Welcome!<br>
+18:15–19:00: "Fun with wgpu: Simulating Slime Mold" by Asger Juul Brunshøj<br>
+19:00–19:45: Break and food sponsored by Factbird<br>
+19:50–20:35: "Building Iterators in Rust: An Audio Buffer Story" by Mark Jordan-Kamholz<br>
+20:35–: Hangout and talk.</p>
+<p>We look forward to seeing you all! 🦀</p>
+"""
+
+[[recent]]
+title = "Hacknight #3"
+date = 2024-03-07 17:00:00+01:00
+venue = "Veo Technologies"
+address = "Rovsingsgade 68"
+url = "https://www.meetup.com/copenhagen-rust-community/events/299451605/"
+content = """
+<p><em>RSVP opens Thursday 29th at 17:00.</em></p>
+<p>We are excited to invite you to:</p>
+<p>Rust Hack Night #3: Embedded on Espressif's ESP32C3</p>
+<p><strong>Time:</strong> Thursday March 7, 2024 at 17:00 to 22:00<br>
+<strong>Location:</strong> Veo Technologies, Rovsingsgade 68, 2100 Copenhagen</p>
+<p>This night we code bare-metal Rust on Espressif's ESP32C3 microcontroller. We will have a workshop-style format where people can do their own thing, or ask for help. We encourage participants to be familiar with Rust or embedded, but not necessarily both.</p>
+<p>Our generous sponsors for this hack night are:</p>
+<ul class="pl-5 list-disc mb-4">
+<li><strong><a href="https://www.espressif.com/" target="_blank" rel="nofollow">Espressif Systems</a></strong>, makers of the ESP32, have sponsored 25 dev kits that will be raffled to participants for use during the workshop and take home after.</li>
+<li><strong><a href="https://veo.co" target="_blank" rel="nofollow">Veo Technologies</a></strong>, makers of live-streaming cameras for sports events, and employers of embedded software developers in Copenhagen, have offered their offices as venue, and will be sponsoring nutrients during the hack night.</li>
+</ul>
+<p>We would like to gather the cool projects made on a shared repository so that others around the world will find it easier to work with ESP32. So if you know what pet project you want to work on, and intend for it to be open source, then do think about committing your work to git for later sharing.</p>
+<p><strong>## Program</strong></p>
+<p>17:00 - 17:10: Finding a seat<br>
+17:10 - 17:30: Welcome, sponsor intro<br>
+17:20 - 21:30: std::iter::from_fn(hack);<br>
+21:30 - 21:55: Show and tell, evaluate<br>
+21:55 - 22:00: core::mem::drop(presence);</p>
+<p>Nutrients will be streamed during the event with a peak dosage at around 18:00.</p>
+<p><strong>## Seats and raffle</strong></p>
+<p>Since Espressif Systems give away free hardware to participants, we care to minimize no-shows. For that reason, we kindly ask that you revisit your RSVP status if you cannot attend.</p>
+<p>- There are 50 raffle seats. This means if you get a seat, you get to share one dev kit with someone else, and you get to enter the raffle to bring it home.<br>
+- BYOB (Bring Your Own Board): If you are the lucky owner of an ESP32 board, and you're already bootstrapped to participate without raffling, you can write to us (simon@simonshine.dk) and we can fit you in.</p>
+<p>Since the Veo Technologies venue is very big, we don't expect to reach the fire regulation limit, so we provide another option for participating:</p>
+<p>- You just want to say hi: Feel free to come by and see what's going on. All you have to do here is write a comment on the invitation to say you're thinking of coming. This ticket does not involve active coding or food.</p>
+"""
+
+[[recent]]
+title = "Meetup #44"
+date = 2024-02-29 18:00:00+01:00
+venue = "Bang & Olufsen"
+address = "Gammel Lundtoftevej 1B, Kongens Lyngby"
+url = "https://www.meetup.com/copenhagen-rust-community/events/299353844/"
+content = """
+<p>We are excited to welcome you to Rust Meetup #44 sponsored by Bang &amp; Olufsen on Thursday, Febuary 29th!</p>
+<p><strong>RSVPs open at Feburary 22nd, 20:00</strong></p>
+<p>The plan looks as follows:</p>
+<p>18:05—18:15: Welcome!<br>
+18:15—19:00: “Conquering the embedded world with Rust and good UX” about embedded rust By <a href="https://www.linkedin.com/in/noah-huesser/" target="_blank">Noah Hüsser</a><br>
+19:00—19:45: Break and food sponsored by B&amp;O<br>
+19:50—20:35: "Falling in love, an FFI story" by Sandeep Nambiar<br>
+20:35—21:45: Hang out and talk<br>
+21:45—: The evening continues at "Kings Hat- Pub &amp; Natklub" for anyone who wishes to join. (On your own bill of course)</p>
+<p>We look forward to seeing you all! 🦀</p></div>
+"""
+
 [[upcoming]]
 title = "Hacknight #2"
 date = 2024-02-15 17:00:00+01:00
