@@ -1,4 +1,4 @@
-[[recent]]
+[[upcoming]]
 title = "Meetup #45"
 date = 2024-03-27 18:00:00+01:00
 venue = "Factbird"
@@ -68,7 +68,7 @@ content = """
 <p>We look forward to seeing you all! 🦀</p></div>
 """
 
-[[upcoming]]
+[[recent]]
 title = "Hacknight #2"
 date = 2024-02-15 17:00:00+01:00
 venue = "Datalogisk Institut, Københavns Universitet (DIKU)"
