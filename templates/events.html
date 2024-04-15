@@ -17,7 +17,12 @@
     <section>
         <h2 id="{{group}}">{{ group | capitalize }}</h2>
 
-        {% for event in meetups[group] %}
+        {% set events_sorted = meetups[group] | sort(attribute="date") | reverse %}
+        
+        {# Reverse sorting again for upcoming events #}
+        {% if group == 'upcoming' %}{% set events_sorted = events_sorted | reverse  %}{% endif %}
+
+        {% for event in events_sorted %}
         {% set event_page = section.pages | filter(attribute="title", value=event.title) | first%}
         
         {% if event_page %}

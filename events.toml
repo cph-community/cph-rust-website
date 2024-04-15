@@ -1,4 +1,14 @@
 [[upcoming]]
+title = "Meetup #46"
+date = 2024-04-25 18:00:00+02:00
+venue = "Nine A/S"
+address = "Kongens Nytorv 18, 1050 København"
+url = ""
+content = """
+TBA
+"""
+
+[[upcoming]]
 title = "Hacknight #4"
 date = 2024-04-16 17:00:00+02:00
 venue = "KEA"
@@ -19,16 +29,6 @@ https://github.com/dtolnay/proc-macro-workshop</p>
 <p>While macros assume some familiarity with Rust, feel free to show up and start from where you are comfortable, e.g. by going through the rustlings tutorial.</p>
 <p>#[must_use]<br>
 We kindly remind you to cancel your RSVP a day before if you can't make it so that others may attend.</p>
-"""
-
-[[upcoming]]
-title = "Meetup #46"
-date = 2024-04-25 18:00:00+02:00
-venue = "Nine A/S"
-address = "Kongens Nytorv 18, 1050 København"
-url = ""
-content = """
-TBA
 """
 
 [[recent]]
