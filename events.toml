@@ -1,4 +1,37 @@
 [[upcoming]]
+title = "Meetup #46"
+date = 2024-04-25 18:00:00+01:00
+venue = "Nine A/S"
+address = "Kongens Nytorv 18, 1050 København"
+url = ""
+content = """
+TBA
+"""
+
+[[upcoming]]
+title = "Hacknight #4"
+date = 2024-04-16 17:00:00+01:00
+venue = "KEA"
+address = "Guldbergsgade 29N"
+url = "https://www.meetup.com/copenhagen-rust-community/events/300369805/"
+content = """
+<p>We are excited to welcome you to Rust Hack Night #4 at KEA.</p>
+<p>Tonight the common theme is macros!();</p>
+<p>Come and level up by bringing your pet project, or get inspired to solve a tutorial task for implementing proc macros: Derive macros, function-like macros, attribute macros. Or be a rebel and make your own thing void of macro use!</p>
+<p>You may draw inspiration from:</p>
+<p>https://doc.rust-lang.org/book/ch19-06-macros.html<br>
+https://github.com/dtolnay/proc-macro-workshop</p>
+<p>#[derive(Schedule)]<br>
+17:00 - 17:10: begin!();<br>
+17:10 - 21:15: hack!();<br>
+21:15 - 21:: show_and_tell!();<br>
+21:55 - 22:00: end!();</p>
+<p>While macros assume some familiarity with Rust, feel free to show up and start from where you are comfortable, e.g. by going through the rustlings tutorial.</p>
+<p>#[must_use]<br>
+We kindly remind you to cancel your RSVP a day before if you can't make it so that others may attend.</p>
+"""
+
+[[recent]]
 title = "Meetup #45"
 date = 2024-03-27 18:00:00+01:00
 venue = "Factbird"
