@@ -1,11 +1,73 @@
 [[upcoming]]
+title = "Meetup #47"
+date = 2024-05-30 18:00:00+02:00
+venue = "Microsoft"
+address = "Kanalvej 7, Kongens Lyngby"
+url = "https://www.meetup.com/copenhagen-rust-community/events/300458222/"
+content = """
+<p>We are excited to welcome you to Rust meetup #47 sponsored by Microsoft!</p>
+<p>As usual RSVPs open 1 week ahead of the event, eg May 23rd at 18:00 exactly.</p>
+
+<p>The plan looks as follows:</p>
+
+<p>#[derive(Schedule)]<br>
+18:05—18:15: Welcome!<br>
+18:15—19:00: “Learn Chinese with Rust” By Simon Shine<br>
+19:00—19:45: Break and food sponsored by Microsoft<br>
+19:50—20:35: "1 million UDP clients!" by Sandeep Nambiar<br>
+20:35—: Hang out and talk</p>
+
+<p>We look forward to seeing you all! 🦀</p>
+"""
+
+[[upcoming]]
+title = "Hacknight #5: Beginner-friendly"
+date = 2024-05-14 17:00:00+02:00
+venue = "KEA"
+address = "Guldbergsgade 29N"
+url = "https://www.meetup.com/copenhagen-rust-community/events/300898453/"
+content = """
+<p>We are excited to welcome you to Rust Hack Night #5 at KEA.</p>
+
+<p>Tonight's theme is: beginner-friendly</p>
+
+<p>Come alone, bring your friend who wants to learn Rust, or show up as usual and hack on something esoteric. There will be some people you can ask your Rust-related questions.</p>
+
+<p>If you're completely new to Rust, we recommend you try and install Rustlings ahead of time; but if you fail or don't find the time, just show up and we'll have a look together:</p>
+
+<p>https://github.com/rust-lang/rustlings</p>
+
+<p>We cannot guarantee that we can help with fringe or legacy operating systems like Plan 9, NetBSD, OS/2 or Windows, but we will give it our best shot.</p>
+
+<p>#[derive(Schedule)]<br>
+17:00 - 18:30: We code Rust!<br>
+18:30 - 19:00: We seek food.<br>
+19:00 - 21:30: We code more Rust!<br>
+21:30 - 21:45: We pack up and leave.</p>
+
+<p>We kindly remind you to cancel your RSVP a day before.
+"""
+
+[[upcoming]]
 title = "Meetup #46"
 date = 2024-04-25 18:00:00+02:00
 venue = "Nine A/S"
 address = "Kongens Nytorv 18, 1050 København"
 url = ""
 content = """
-TBA
+<p>We are excited to welcome you to Rust meetup #46 sponsored by <a href="https://nine.dk/" target="_blank" rel="nofollow">Nine!</a></p>
+<p>As usual RSVPs open 1 week ahead of the event, eg Thursday 18th at 18:00 exactly.</p>
+
+<p>The plan looks as follows:</p>
+
+<p>#[derive(Schedule)]<br>
+18:05—18:15: Welcome!<br>
+18:15—19:00: “Objective-C in Rust” By <a href="https://github.com/madsmtm" target="_blank" rel="nofollow">Mads Marquart</a><br>
+19:00—19:45: Break and food sponsored by Nine A/S<br>
+19:50—20:35: "RRust A Reversible Embedded Language" by <a href="https://www.linkedin.com/in/valdemar-erk" target="_blank" rel="nofollow">Valdemar Erk</a><br>
+20:35—: Hang out and talk</p>
+
+<p>We look forward to seeing you all! 🦀</p>
 """
 
 [[upcoming]]
