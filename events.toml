@@ -48,7 +48,7 @@ content = """
 <p>We kindly remind you to cancel your RSVP a day before.
 """
 
-[[upcoming]]
+[[recent]]
 title = "Meetup #46"
 date = 2024-04-25 18:00:00+02:00
 venue = "Nine A/S"
@@ -70,7 +70,7 @@ content = """
 <p>We look forward to seeing you all! 🦀</p>
 """
 
-[[upcoming]]
+[[recent]]
 title = "Hacknight #4"
 date = 2024-04-16 17:00:00+02:00
 venue = "KEA"
