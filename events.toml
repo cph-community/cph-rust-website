@@ -20,7 +20,7 @@ content = """
 <p>We look forward to seeing you all! 🦀</p>
 """
 
-[[upcoming]]
+[[recent]]
 title = "Hacknight #5: Beginner-friendly"
 date = 2024-05-14 17:00:00+02:00
 venue = "KEA"
