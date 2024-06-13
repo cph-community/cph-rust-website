@@ -1,3 +1,13 @@
+[[upcoming]]
+title = "Meetup #48"
+date = 2024-06-27 18:00:00+02:00
+venue = "Google Copenhagen"
+address = "Sankt Petri Passage 5, København"
+url = ""
+content = """
+More info soon.
+"""
+
 [[recent]]
 title = "Hacknight #6: Discord bots"
 date = 2024-06-11 17:00:00+02:00
