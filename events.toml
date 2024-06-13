@@ -1,4 +1,24 @@
-[[upcoming]]
+[[recent]]
+title = "Hacknight #6: Discord bots"
+date = 2024-06-11 17:00:00+02:00
+venue = "KEA"
+address = "Guldbergsgade 29N"
+url = "https://www.meetup.com/copenhagen-rust-community/events/301439744/"
+content = """
+<p>We are excited to welcome you to Rust Hack Night #6 at KEA.</p>
+<p>Tonight's theme is: <strong>Discord bots</strong></p>
+<p>The goal is, at the end of the evening, to have populated one of our Discord channels with bots that talk smack. Exactly what is up to you. It could be a weather bot, a text-based adventure, an IRC bridge, an insult generator, or an attempt to beat the Turing test using LLMs.</p>
+<p>Come with your ideas, steal an idea from someone, or work together with others. You are free to show up and do your own thing entirely unrelated to Discord.</p>
+<p>#[derive(Schedule)]<br>
+17:00 - 17:30: Discord bot API presentation, brainstorm ideas.<br>
+17:30 - 18:30: We hack on bots.<br>
+18:30 - 19:00: We look for food.<br>
+19:00 - 21:00: We hack on bots.<br>
+21:00 - 21:15: We pack up and leave.</p>
+<p>We kindly remind you to cancel your RSVP if you can't make it.</p>
+"""
+
+[[recent]]
 title = "Meetup #47"
 date = 2024-05-30 18:00:00+02:00
 venue = "Microsoft"
