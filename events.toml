@@ -3,9 +3,19 @@ title = "Meetup #48"
 date = 2024-06-27 18:00:00+02:00
 venue = "Google Copenhagen"
 address = "Sankt Petri Passage 5, København"
-url = ""
+url = "https://www.meetup.com/copenhagen-rust-community/events/300458252/"
 content = """
-More info soon.
+<p>We are excited to welcome you to Rust meetup #48 sponsored by Google!<br>
+As usual RSVPs open 1 week ahead of the event, eg June 20th at 18:00 exactly.</p>
+<p>Once you're on the "going" list for the meetup please also register yourself here for the mandatory nametags: https://rsvp.withgoogle.com/events/rust-community-meetup-at-google</p>
+<p>Please don't sign up if you are still on the waiting list and remember to also update your status there if you cannot go 😊</p>
+<p>The plan looks as follows:</p>
+<p>18:05—18:15: Welcome!<br>
+18:15—19:00: "A taste of TUIs" by Troels Hoffmeyer<br>
+19:00—19:45: Break and food sponsored by Google<br>
+19:50—20:35: "What Plato and Videogames can teach us about Rust" by Claudio Cabral<br>
+20:35—: Hang out and talk</p>
+<p>We look forward to seeing you all! 🦀</p>
 """
 
 [[recent]]
