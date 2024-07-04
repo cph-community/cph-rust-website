@@ -1,4 +1,14 @@
 [[upcoming]]
+title = "Meetup #49"
+date = 2024-07-25 18:00:00+02:00
+venue = "Factbird"
+address = "Nyropsgade 37"
+url = ""
+content = """
+Coming soon.
+"""
+
+[[recent]]
 title = "Meetup #48"
 date = 2024-06-27 18:00:00+02:00
 venue = "Google Copenhagen"
