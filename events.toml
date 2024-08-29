@@ -1,4 +1,24 @@
 [[upcoming]]
+title = "Meetup #50"
+date = 2024-08-29 18:00:00+02:00
+venue = "Adapt Agency"
+address = "Langebrogade 6a, 1411 København"
+url = "https://www.meetup.com/copenhagen-rust-community/events/303040544/"
+content = """
+<p>We are excited to welcome you to Rust meetup #50 sponsored by <a href="https://adaptagency.com/" target="_blank" rel="nofollow ugc">Adapt Agency</a>!</p>
+<p><strong>We urge all attendees to please consider preparing a five to fifteen minutes lightning talk about something Rust related. Anything goes. Big or small.</strong></p>
+<p>Apologies for short notice. RSVPs opens two days prior to event at 18:00.</p>
+<p>The plan looks as follows:</p>
+<p>18:05–18:15: Welcome!<br>
+18:15–19:00: "Exploring Proc Macros in Rust’s Eco Systems" by Simon Rasmussen<br>
+19:00–19:45: Break and food sponsored by <a href="https://adaptagency.com/" target="_blank" rel="nofollow ugc">Adapt</a>.<br>
+19:50–20:35: Ligthning talks. (Hopefully)<br>
+20:35–20:45: Raffle 🎲<br>
+20:45–: Hangout and talk</p>
+<p>We look forward to seeing you all! 🦀</p>
+"""
+
+[[recent]]
 title = "Meetup #49"
 date = 2024-07-25 18:00:00+02:00
 venue = "Factbird"
