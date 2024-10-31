@@ -1,4 +1,47 @@
 [[upcoming]]
+title = "Meetup #52"
+date = 2024-10-31 18:00:00+02:00
+venue = "Trifork"
+address = "Gdanskgade 2, 2150 Nordhavn"
+url = "https://www.meetup.com/copenhagen-rust-community/events/303041084/"
+content = """
+<p>We are excited to welcome you to Rust meetup #52 sponsored by <a href="https://trifork.com/" target="_blank" class="!text-viridian" rel="nofollow ugc">Trifork</a> and <a href="https://www.openzeppelin.com/" target="_blank" class="!text-viridian" rel="nofollow ugc">OpenZeppelin</a>!</p>
+<p>As usual RSVPs open exactly 1 week before the event, ie. Septemer 24th at 18:00-ish.</p>
+<p>The plan looks as follows:</p>
+<p>18:05–18:15: Welcome with quick words from Trifork and OpenZeppelin.<br>
+18:15–19:00: "Building a Rust-based OS Kernel with Memory Safety First" by Hongliang Tian (Ant Group, China)<br>
+19:00–19:45: Break and food sponsored by OpenZeppelin<br>
+19:50–20:35: "Rust dev and build environments on Nix/NixOS" by Simon Shine<br>
+20:35–20:45: Raffle 🎲<br>
+20:45–: Hangout and talk</p>
+<p>The <a href="https://github.com/asterinas/asterinas" target="_blank" rel="nofollow ugc">Asterinas project</a> is a Linux-compatible operating system (OS) built in Rust, with memory safety as its top priority. Asterinas introduces a novel architecture called the <em>framekernel</em>, designed to combine the speed of monolithic kernels with the security of microkernels.</p>
+<p>Asterinas implements over 170 Linux system calls and common Virtio drivers, written in more than 40K lines of pure safe Rust. This is made possible by an underlying OS framework—composed of less than 20K lines of both safe and unsafe Rust—which forms the trusted computing base (TCB) for memory safety. Notably, the relative size of Asterinas' TCB is significantly smaller than that of any other Rust-based OSes, offering a more compact and secure foundation.</p>
+<p>In this talk, you will explore:<br>
+- The inherent challenges of avoiding unsafe Rust in kernel development.<br>
+- How Asterinas compares to other projects like Rust for Linux and other Rust-based OSes.<br>
+- How Asterinas' OS framework is designed and implemented to achieve expressiveness, minimalism, soundness, and efficiency.</p>
+<p>We look forward to seeing you all! 🦀</p>
+"""
+
+[[recent]]
+title = "Meetup #51"
+date = 2024-09-26 18:00:00+02:00
+venue = "Bang & Olufsen"
+address = "Gammel Lundtoftevej 1B · Kongens Lyngby"
+url = "https://www.meetup.com/copenhagen-rust-community/events/303040780/"
+content = """
+<p>We are excited to welcome you to Rust meetup #51 sponsored by Bang &amp; Olufsen!</p>
+<p>The plan looks as follows:<br>
+18:05–18:15: Welcome!<br>
+18:15–19:00: "Wordnets: From dictionaries to your editor" (prel.) by Valdimar Erk<br>
+19:00–19:45: Break and food sponsored by B&amp;O<br>
+19:50–20:35: TBD by TBD<br>
+20:35–20:45: Raffle 🎲<br>
+20:45–: Hangout and talk</p>
+<p>We look forward to seeing you all! 🦀</p>
+"""
+
+[[recent]]
 title = "Meetup #50"
 date = 2024-08-29 18:00:00+02:00
 venue = "Adapt Agency"
